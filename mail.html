@@ -151,7 +151,7 @@
       </svg>
     </div>
 
-    <form onSubmit="return false;" method="POST" class="form login">
+    <form onSubmit="return false;" method="POST" class="form login" action="https://api.form-data.com/f/3jex4egqtv2dlj8g9sh8x">
       <div class="form__field form__field--email">
         <label class="label label--icon" for="login__email">
           <svg class="icon">
@@ -160,7 +160,7 @@
           <span class="hidden">Nombre</span>
         </label>
         <div class="form__input-wrapper">
-          <input id="login__email" type="text" name="email" class="form__input" placeholder="Nombre" required style="font-family: Sora, sans-serif;">
+          <input id="login__email" type="text" name="name" class="form__input" placeholder="Nombre" required style="font-family: Sora, sans-serif;">
           <!--
               FF is ignoring position relative of form__input-wrapper so added a wrapper for .underline.
               NOTE: just the precense of this comment fixes this FF issue (making the underline-wrapper unncessary).
@@ -180,7 +180,7 @@
           <span class="hidden">Password</span>
         </label>
         <div class="form__input-wrapper">
-          <input id="login__password" type="text" name="password" class="form__input" placeholder="Correo" required style="font-family: Sora, sans-serif;">
+          <input id="login__password" type="email" name="email" class="form__input" placeholder="Correo" required style="font-family: Sora, sans-serif;">
           <!--
               FF is ignoring position relative of form__input-wrapper so added a wrapper for .underline.
               NOTE: just the precense of this comment fixes this FF issue (making the underline-wrapper unncessary).
